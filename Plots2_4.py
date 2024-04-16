@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 
-
+import plotly
 import altair as alt
 
 # Altair Scatter plot
