@@ -23,7 +23,7 @@ st.dataframe(chart_data)
 
 st.header('2 Interactive Line Chart')
 st.subheader('2.1 Line Chart')
-df = pd.read_csv('Streamlit/lang_data.csv')
+df = pd.read_csv('lang_data.csv')
 
 # st.dataframe(df)
 
@@ -48,7 +48,7 @@ import plotly.figure_factory as ff
 st.header('3 Data visualization with Plotly')
 
 st.subheader('3.1 Displaying the dataset')
-df = pd.read_csv('Streamlit/tips.csv')
+df = pd.read_csv('tips.csv')
 st.dataframe(df)
 
 st.subheader('3.2 Pie Chart')
