@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
 import altair as alt
+import plotly.express as px
+import plotly.figure_factory as ff
 
 # Altair Scatter plot
 
@@ -40,9 +41,6 @@ st.area_chart(new_df)
 
 # Data Visualization
 
-
-import plotly.express as px
-import plotly.figure_factory as ff
 st.header('3 Data visualization with Plotly')
 
 st.subheader('3.1 Displaying the dataset')
